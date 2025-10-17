@@ -22,7 +22,7 @@ With this integration, you can:
 
 - **Discover OPC UA assets at the edge** with an OPC Publisher Akri connector in AIO and onboard them into ADR in the cloud.
   
-- **Leverage Microsoft-curated asset models**, derived from OPC UA companion specifications, for consistent asset definitions.
+- **Use standardized OPC UA asset definitions,** sourced directly from Companion Specifications published by the OPC Foundation—the governing body behind the OPC UA standard—ensuring consistent modeling and interoperability across industrial devices and vendors.
   
 - **Stream asset telemetry and metadata** from AIO and ADR into Microsoft Fabric, for rich digital representations of assets and insigts in DTB.
 
@@ -55,7 +55,7 @@ Each component plays a critical role in delivering a unified edge-to-cloud integ
 ## **How Data Comes Together**
 
 #### 1. Model Management
-Microsoft-curated Asset definition, derived from OPC UA companion specifications, define asset types and capabilities. These definitions are:
+Built-in asset definitions sourced directly from OPC UA Companion Specifications published by the OPC Foundation.. These definitions are:
 
 - Embedded in device endpoint configurations within Azure IoT Operations, enabling the discovery handler to automatically identify matching assets.
 
